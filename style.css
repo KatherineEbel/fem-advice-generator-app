@@ -31,8 +31,8 @@ body {
     font-family: 'Manrope', sans-serif;
     flex-direction: column;
     justify-content: center;
-    padding: 0 1rem;
-    max-width: 100vw;
+    padding: 1rem;
+    width: 100vw;
     min-height: 100vh;
 }
 
@@ -45,7 +45,6 @@ main {
     gap: 1.5rem;
     font-weight: 900;
     height: var(--main-height);
-    max-height: 332px;
     max-width: 540px;
     padding: 2.5rem 1.5rem;
     position: relative;
@@ -124,6 +123,7 @@ h1 {
         --text-sm: 13px;
         --text-lg: 1.75rem;
         --pd-lg: 3rem;
+        --main-height: 332px;
     }
     main {
         padding: var(--pd-lg);
