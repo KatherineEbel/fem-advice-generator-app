@@ -80,6 +80,7 @@ h1 {
     height: 64px;
     justify-content: center;
     margin-top: 1rem;
+    max-width: 91.47%;
     padding: 1rem;
     position: absolute;
     transition: 300ms ease-in-out;
@@ -90,6 +91,12 @@ h1 {
     box-shadow: 0 0 40px 0 var(--color-neon-green);
 }
 
+.die-btn:disabled {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
 .quote {
     letter-spacing: -0.26px;
     font-size: 24px;
@@ -98,7 +105,7 @@ h1 {
     transition: 500ms;
 }
 
-.quote.changing {
+.changing {
     opacity: 0;
 }
 
